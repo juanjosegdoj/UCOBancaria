@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="UCOBancaria_API-0.0.1-SNAPSHOT">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="UCOBancaria_Negocio-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/UCOBancaria_Negocio/UCOBancaria_Negocio">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="UCOBancaria_Datos-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/UCOBancaria_Datos/UCOBancaria_Datos">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="UCOBancaria_Dominio-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/UCOBancaria_Dominio/UCOBancaria_Dominio">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="UCOBase_Utilitarios-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/UCOBase_Utilitarios/UCOBase_Utilitarios">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="UCOBancaria_DTO-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/UCOBancaria_DTO/UCOBancaria_DTO">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="UCOBancaria_API"/>
+        <property name="java-output-path" value="/UCOBancaria_API/build/classes"/>
+    </wb-module>
+</project-modules>
