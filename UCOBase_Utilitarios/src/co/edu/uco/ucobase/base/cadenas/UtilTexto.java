@@ -1,8 +1,5 @@
 package co.edu.uco.ucobase.base.cadenas;
 
-//import co.edu.uco.ucobase.base.objeto.UtilObjeto;
-
-
 
 import static co.edu.uco.ucobase.base.objeto.UtilObjeto.obtenerUtilObjeto;
 
@@ -19,6 +16,6 @@ public final class UtilTexto {
 	}
 
 public String aplicarTrim(String cadena) {
-	return obtenerUtilObjeto().obtenerValorDefecto(cadena, "").trim();
+	return obtenerUtilObjeto().obtenerValorDefecto(cadena, "").trim(); // trim quita los espacios a los lados
 }
 }
