@@ -1,0 +1,13 @@
+
+ˆsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ã¿‘úÿÿÿÿ8¶Ó‰Ñè,HˆRMINORZ
+CODE_SMELL
+‡squid:S1871"MThis branch's code block is the same as the block for the branch on line 141.(´Û«¨üÿÿÿÿ8¶Ó‰Ñè,H‰RMAJORZ
+CODE_SMELL
+ƒsquid:S00100K"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†îØÖ8¶Ó‰Ñè,H‹RMINORZ
+CODE_SMELL
+ˆsquid:UnusedPrivateMethod«"@Remove this unused private "asegurarIntegridadOperacion" method.(œÙêÈøÿÿÿÿ8¶Ó‰Ñè,HŒRMAJORZ
+CODE_SMELL
+squid:CommentedOutCodeLineT"<This block of commented-out lines of code should be removed.(ÔÚ¸ı8¶Ó‰Ñè,HŠRMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine["<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8¶Ó‰Ñè,HRMAJORZ
+CODE_SMELL

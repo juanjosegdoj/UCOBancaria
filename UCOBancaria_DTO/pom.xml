@@ -3,7 +3,7 @@
   <groupId>co.edu.uco.ucobancaria</groupId>
   <artifactId>UCOBancaria_DTO</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>UCOBancaria-DTO</name>
+  <name>UCOBancaria_DTO</name>
   <description>Contiene los objetos de transferencia de datos del proyecto UCOBancaria.</description>
   <build>
     <sourceDirectory>src</sourceDirectory>
@@ -20,7 +20,7 @@
   </build>
   <dependencies>
   	<dependency>
-  		<groupId>co.ed.uco.ucobase</groupId>
+  		<groupId>co.edu.uco.ucobase</groupId>
   		<artifactId>UCOBase_Utilitarios</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>

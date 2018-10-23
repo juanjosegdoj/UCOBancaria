@@ -1,27 +1,26 @@
 package co.edu.uco.ucobancaria.dto;
 
-// import co.edu.uco.ucobase.base.objeto.UtilObjeto;
-import static co.edu.uco.ucobase.base.cadenas.UtilTexto.obtenerUtilTexto;
+import static co.edu.uco.ucobase.utilitarios.cadenas.UtilTexto.obtenerUtilTexto;
+
 /**
- * objetod e transferencia de datos que representa un cliente
+ * Objeto de transferencia de datos que representa a un Cliente.
  * 
- * @author Usuario
+ * @author WSANCHEG
  *
  */
-
-
 public final class ClienteDTO {
+
 	private int codigo;
 	private String numeroIdentificacion;
 	private String nombre;
 	private String correo;
 	private String clave;
-	
+
 	public ClienteDTO() {
 		super();
 	}
 
-	public ClienteDTO(int codigo, String numeroIdentificacion, String nombre, String correo, String clave) {
+	public ClienteDTO(final int codigo, final String numeroIdentificacion, final String nombre, final String correo, final String clave) {
 		super();
 		setCodigo(codigo);
 		setNumeroIdentificacion(numeroIdentificacion);
@@ -30,56 +29,44 @@ public final class ClienteDTO {
 		setClave(clave);
 	}
 
-
 	public final int getCodigo() {
 		return codigo;
 	}
 
-
-	public final void setCodigo(int codigo) {
+	public final void setCodigo(final int codigo) {
 		this.codigo = codigo;
 	}
-
 
 	public final String getNumeroIdentificacion() {
 		return numeroIdentificacion;
 	}
 
-
-	public final void setNumeroIdentificacion(String numeroIdentificacion) {
+	public final void setNumeroIdentificacion(final String numeroIdentificacion) {
 		this.numeroIdentificacion = obtenerUtilTexto().aplicarTrim(numeroIdentificacion);
 	}
-
 
 	public final String getNombre() {
 		return nombre;
 	}
 
-
-	public final void setNombre(String nombre) {
-		this.nombre = nombre;
+	public final void setNombre(final String nombre) {
+		this.nombre = obtenerUtilTexto().aplicarTrim(nombre);
 	}
-
 
 	public final String getCorreo() {
 		return correo;
 	}
 
-
-	public final void setCorreo(String correo) {
-		this.correo = correo;
+	public final void setCorreo(final String correo) {
+		this.correo = obtenerUtilTexto().aplicarTrim(correo);
 	}
-
 
 	public final String getClave() {
 		return clave;
 	}
 
-
-	public final void setClave(String clave) {
-		this.clave = clave;
+	public final void setClave(final String clave) {
+		this.clave = obtenerUtilTexto().aplicarTrim(clave);
 	}
-
-	
 
 }

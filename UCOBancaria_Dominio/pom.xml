@@ -20,7 +20,7 @@
   </build>
   <dependencies>
   	<dependency>
-  		<groupId>co.ed.uco.ucobase</groupId>
+  		<groupId>co.edu.uco.ucobase</groupId>
   		<artifactId>UCOBase_Utilitarios</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>

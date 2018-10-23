@@ -1,37 +1,36 @@
 package co.edu.uco.ucobase.utilitarios.excepcion.enumeracion;
 
 public enum ExcepcionEnum {
-	
-	DATOS("DATOS", "Excepcion presentada en la capa de datos"),
-	NEGOCIO("NEGOCIO", "Excepcion presentada en logica de negocio"),
-	FACHADA("fACHADA", "Excepcion presentada en la capa de fachada"),
-	API("API", "Excepcion presentada en la capa api"),
-	DTO("DTO", "Excepcion presentada en la capa dto"), 
-	DOMINIO("DOMINIO", "Excepcion presentada en la capa dominio"), 
-	GENERAL("GENERAL", "Excepcion presentada a nivel general");
-	
+
+	DATOS("DATOS", "Excepción presentada en la capa de datos"), 
+	NEGOCIO("NEGOCIO", "Excepción presentada en la capa de lógica de negocio"), 
+	FACHADA("FACHADA", "Excepción presentada en la capa de fachada"), 
+	API("API", "Excepción presentada en la capa de servicios"),
+	DTO("DTO", "Excepción presentada en la capa de dto"),
+	DOMINIO("DOMINIO", "Excepción presentada en la capa de dominio"),
+	GENERAL("GENERAL", "Excepción presentada a nivel General");
+
 	private String codigo;
 	private String nombre;
-	
-	public String getCodigo() {
-		return codigo;
-	}
-	
+
 	private ExcepcionEnum(final String codigo, final String nombre) {
 		setCodigo(codigo);
 		setNombre(nombre);
 	}
-	
-	public void setCodigo(String codigo) {
+
+	public String getCodigo() {
+		return codigo;
+	}
+
+	private void setCodigo(String codigo) {
 		this.codigo = codigo;
 	}
+
 	public String getNombre() {
 		return nombre;
 	}
-	public void setNombre(String nombre) {
+
+	private void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-	
-	
 }
-
