@@ -1,0 +1,20 @@
+
+‡squid:S2068&"U'password' detected in this expression, review this potentially hardcoded credential.(¸¨ĞŠH£RBLOCKERZVULNERABILITY
+ãsquid:S1192d"³Define a constant instead of duplicating this literal "Se ha presentado un problema tratando de confirmar los cambios de una operaciÃ³n contra la fuente de informaciÃ³n." 3 times.(˜’oH¤RCRITICALZ
+CODE_SMELL
+Øsquid:S1192N"¢Define a constant instead of duplicating this literal "Se ha presentado un problema tratando de iniciar una operaciÃ³n contra la fuente de informaciÃ³n." 3 times.(šğÆ˜ûÿÿÿÿH¥RCRITICALZ
+CODE_SMELL
+Ğsquid:S11928"ŸDefine a constant instead of duplicating this literal "Se ha presentado un problema tratando de cerrar la conexiÃ³n contra la fuente de informaciÃ³n." 3 times.(ÈÎÁ×H¦RCRITICALZ
+CODE_SMELL
+èsquid:S1192z"²Define a constant instead of duplicating this literal "Se ha presentado un problema tratando de cancelar los cambios de una operaciÃ³n contra la fuente de informaciÃ³n." 3 times.(í»“»ùÿÿÿÿH§RCRITICALZ
+CODE_SMELL
+dsquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH¨RINFOZ
+CODE_SMELL
+dsquid:S1135”"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH©RINFOZ
+CODE_SMELL
+dsquid:S1135š"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHªRINFOZ
+CODE_SMELL
+dsquid:S1135 "2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH«RINFOZ
+CODE_SMELL
+dsquid:S1135¦"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH¬RINFOZ
+CODE_SMELL
