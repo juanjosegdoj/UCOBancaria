@@ -4,7 +4,10 @@ import static co.edu.uco.ucobase.utilitarios.cadenas.UtilTexto.obtenerUtilTexto;
 
 public enum ExpresionRegularEnum {
 	
-	SOLO_TEXTO("^[a-zA-ZñÑáÁéÉíÍóÓúÚ ]+$");
+	SOLO_TEXTO("^[a-zA-ZñÑáÁéÉíÍóÓúÚ ]+$"),
+	SOLO_NUMEROS("^[0-9]+$"),
+	CORREO("^[a-zA-Z0-9.,+-_]+$");
+
 
 	private String expresion;
 

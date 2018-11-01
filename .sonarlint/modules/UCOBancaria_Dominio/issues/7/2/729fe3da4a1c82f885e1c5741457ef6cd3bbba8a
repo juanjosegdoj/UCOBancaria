@@ -1,3 +1,52 @@
 
-osquid:S2094"BRemove this empty class, write its code or make it an "interface".(Ê»€šH˜RMINORZ
+‡squid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(‹Ô†½8ğ¢‹àì,H©
+RMINORZ
+CODE_SMELL
+ƒsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹Ô†½8ğ¢‹àì,Hª
+RMINORZ
+CODE_SMELL
+ˆsquid:S00100`"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬­×şÿÿÿÿ8ğ¢‹àì,H«
+RMINORZ
+CODE_SMELL
+ˆsquid:S00100u"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àÆöúÿÿÿÿ8ğ¢‹àì,H¬
+RMINORZ
+CODE_SMELL
+‚squid:S00100|"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òè§8ğ¢‹àì,H­
+RMINORZ
+CODE_SMELL
+‚squid:S00100ˆ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ö$8ğ¢‹àì,H®
+RMINORZ
+CODE_SMELL
+„squid:S00100Œ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«şÆ€8ğ¢‹àì,H¯
+RMINORZ
+CODE_SMELL
+‰squid:S00100˜"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ˜æÎıÿÿÿÿ8ğ¢‹àì,H°
+RMINORZ
+CODE_SMELL
+‰squid:S00100¤"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ºÛôşÿÿÿÿ8ğ¢‹àì,H±
+RMINORZ
+CODE_SMELL
+„squid:S00100¨"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ó›Üõ8ğ¢‹àì,H²
+RMINORZ
+CODE_SMELL
+‰squid:S00100´"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÉÇæıÿÿÿÿ8ğ¢‹àì,H³
+RMINORZ
+CODE_SMELL
+›squid:S00116"aRename this field "codigo_tipo_movimiento" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾µ“Ïøÿÿÿÿ8ğ¢‹àì,H´
+RMINORZ
+CODE_SMELL
+’squid:S00116"XRename this field "codigo_cuenta" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï¹‘õûÿÿÿÿ8ğ¢‹àì,Hµ
+RMINORZ
+CODE_SMELL
+squid:S00116"[Rename this field "naturaleza_valor" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËòÚØ8ğ¢‹àì,H¶
+RMINORZ
+CODE_SMELL
+…squid:S00117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ö$8ğ¢‹àì,H·
+RMINORZ
+CODE_SMELL
+‡squid:S00117Œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«şÆ€8ğ¢‹àì,H¸
+RMINORZ
+CODE_SMELL
+Œsquid:S00117˜"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ˜æÎıÿÿÿÿ8ğ¢‹àì,H¹
+RMINORZ
 CODE_SMELL

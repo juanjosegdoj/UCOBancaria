@@ -9,5 +9,5 @@ public enum OperacionEnum {
 	public final static OperacionEnum obtenerValorDefecto(final OperacionEnum operacion) {
 		return obtenerUtilObjeto().obtenerValorDefecto(operacion, OperacionEnum.SIN_VALOR);
 	}
-	
+
 }

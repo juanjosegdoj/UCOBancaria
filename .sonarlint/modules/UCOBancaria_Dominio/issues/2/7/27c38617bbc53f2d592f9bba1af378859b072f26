@@ -1,3 +1,5 @@
 
-osquid:S2094"BRemove this empty class, write its code or make it an "interface".(äØ±‡H™RMINORZ
+ˆsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯åº¤úÿÿÿÿ8”Ú¢Üì,H¨RMINORZ
+CODE_SMELL
+Œsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(¯åº¤úÿÿÿÿ8”Ú¢Üì,H§RMINORZ
 CODE_SMELL

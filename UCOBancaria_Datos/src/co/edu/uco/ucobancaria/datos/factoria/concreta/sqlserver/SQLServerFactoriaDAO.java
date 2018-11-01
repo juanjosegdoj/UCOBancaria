@@ -6,6 +6,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+import co.edu.uco.ucobancaria.datos.dao.concreta.sqlserver.TipoCuentaSQLServerDAO;
 import co.edu.uco.ucobancaria.datos.dao.interfaces.IClienteDAO;
 import co.edu.uco.ucobancaria.datos.dao.interfaces.ICuentaDAO;
 import co.edu.uco.ucobancaria.datos.dao.interfaces.IMovimientoDAO;
@@ -156,9 +157,16 @@ public final class SQLServerFactoriaDAO extends FactoriaDAO {
 	}
 
 	@Override
-	public ITipoCuentaDAO obtenerTipoCuentaDAO() {
-		// TODO Auto-generated method stub
-		return null;
+	public final ITipoCuentaDAO obtenerTipoCuentaDAO() {
+
+		if (!obtenerUtilSQL().conexionEstaAbierta(conexion)) {
+			final String mensajeUsuario = "Se ha presentado un problema tratando realizar la operación deseada un tipo de cuenta";
+			final String mensajeTecnico = "No es posible crear un TipoCuentaSQLServerDAO con una conexión que no está abierta.";
+
+			throw AplicacionExcepcion.CREAR(mensajeTecnico, mensajeUsuario, ExcepcionEnum.DATOS);
+		}
+
+		return new TipoCuentaSQLServerDAO(conexion);
 	}
 
 	@Override

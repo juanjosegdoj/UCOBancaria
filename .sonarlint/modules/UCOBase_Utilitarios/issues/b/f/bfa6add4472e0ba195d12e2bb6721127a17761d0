@@ -1,21 +1,21 @@
 
-squid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…”äÙıÿÿÿÿH™RMINORZ
+squid:S00100%"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–˜°ÛùÿÿÿÿHÎRMINORZ
 CODE_SMELL
-|squid:S00100!"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°È‹ïHšRMINORZ
+^squid:S1165",Make this "existeExcepcionRaiz" field final.(¯¶ßüüÿÿÿÿHÏRMINORZ
 CODE_SMELL
-squid:S00100%"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–˜°ÛùÿÿÿÿH›RMINORZ
+Ssquid:S1165"&Make this "excepcionRaiz" field final.(˜Ù”ÔHĞRMINORZ
 CODE_SMELL
-{squid:S00100)"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ÜHœRMINORZ
+Tsquid:S1165"'Make this "mensajeTecnico" field final.(¢¨ğ´HÑRMINORZ
 CODE_SMELL
-|squid:S00100-"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á®ÍÁHRMINORZ
+Ysquid:S1165"'Make this "mensajeUsuario" field final.(ªäé‘ùÿÿÿÿHÒRMINORZ
 CODE_SMELL
-Tsquid:S1165"'Make this "mensajeTecnico" field final.(¢¨ğ´HRMINORZ
+|squid:S00100-"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á®ÍÁHÓRMINORZ
 CODE_SMELL
-Ysquid:S1165"'Make this "mensajeUsuario" field final.(ªäé‘ùÿÿÿÿHŸRMINORZ
+{squid:S00100)"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ÜHÔRMINORZ
 CODE_SMELL
-Ssquid:S1165"&Make this "excepcionRaiz" field final.(˜Ù”ÔH RMINORZ
+squid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…”äÙıÿÿÿÿHÕRMINORZ
 CODE_SMELL
-^squid:S1165",Make this "existeExcepcionRaiz" field final.(¯¶ßüüÿÿÿÿH¡RMINORZ
+Ysquid:S1165"'Make this "lugarExcepcion" field final.(âÕÔúÿÿÿÿHÖRMINORZ
 CODE_SMELL
-Ysquid:S1165"'Make this "lugarExcepcion" field final.(âÕÔúÿÿÿÿH¢RMINORZ
+|squid:S00100!"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°È‹ïH×RMINORZ
 CODE_SMELL

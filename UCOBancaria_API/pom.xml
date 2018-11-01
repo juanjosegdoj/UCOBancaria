@@ -3,11 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>UCOBancariaAPI</artifactId>
+	<groupId>co.edu.uco.ucobancaria</groupId>
+	<artifactId>UCOBancaria_API</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>UCOBancariaAPI</name>
+	<name>UCOBancaria_API</name>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -51,8 +52,7 @@
 			<groupId>org.springframework.session</groupId>
 			<artifactId>spring-session-core</artifactId>
 		</dependency>
-		
-		
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
@@ -79,20 +79,20 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-  		<groupId>co.edu.uco.ucobancaria</groupId>
-  		<artifactId>UCOBancaria_Negocio</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>co.ed.uco.ucobase</groupId>
-  		<artifactId>UCOBase_Utilitarios</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>co.edu.uco.ucobancaria</groupId>
-  		<artifactId>UCOBancaria_DTO</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
+			<groupId>co.edu.uco.ucobancaria</groupId>
+			<artifactId>UCOBancaria_Negocio</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>co.edu.uco.ucobase</groupId>
+			<artifactId>UCOBase_Utilitarios</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>co.edu.uco.ucobancaria</groupId>
+			<artifactId>UCOBancaria_DTO</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -105,6 +105,5 @@
 	</build>
 
 
-	<groupId>co.edu.uco.ucobancaria</groupId>
-	<description>Componente que expone o pública los servicios de negocio del proyecto UCOBancaria.</description>
+	<description>comoponente que expone o publica los servicios del proyecto UCOBancaria</description>
 </project>
